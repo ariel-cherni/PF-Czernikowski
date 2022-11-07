@@ -1,0 +1,266 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+
+#body__contacto #section6 .textoAyuda, #section4 .equipos .equipo, #section2 .pilares .pilar__uno,
+#section2 .pilares .pilar__dos,
+#section2 .pilares .pilar__tres, .bienvenidos .bienvenidos__text, .bienvenidos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#section5 .textoPagina, #section4 .textoPagina, #section3 .textoPagina, #section2 .textoPagina {
+  margin: 1rem 0rem 1rem 0rem;
+  padding: 2rem;
+  text-align: center;
+  font-size: 2rem;
+  background-color: rgba(52, 58, 64, 0.9254901961);
+  color: white;
+}
+
+.nav__menu {
+  opacity: 95%;
+}
+
+.bienvenidos {
+  position: relative;
+  height: 85vh;
+}
+.bienvenidos .bienvenidos__text {
+  opacity: 1;
+  gap: 1rem;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  text-align: center;
+  margin-top: 4.5rem;
+  font-size: 1.5rem;
+  position: absolute;
+  color: black;
+}
+.bienvenidos .bienvenidos__text .divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.bienvenidos .bienvenidos__text .divider:after, .bienvenidos .bienvenidos__text .divider:before {
+  content: "";
+  background-color: black;
+  height: 3px;
+  width: 30vw;
+  margin: 10px;
+}
+
+.bienvenidos::before {
+  content: "";
+  background-image: url(../images/paisaje.jpg);
+  background-size: cover;
+  background-position: center center;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.7;
+}
+
+#section2 .pilares {
+  display: flex;
+  padding: 2rem;
+}
+#section2 .pilares .pilar__uno p,
+#section2 .pilares .pilar__dos p,
+#section2 .pilares .pilar__tres p {
+  text-align: center;
+  padding: 0.5rem;
+}
+#section2 .pilares .pilar__uno i,
+#section2 .pilares .pilar__dos i,
+#section2 .pilares .pilar__tres i {
+  font-size: 4rem;
+  padding: 1rem;
+}
+#section2 .pilares .pilar__uno a,
+#section2 .pilares .pilar__dos a,
+#section2 .pilares .pilar__tres a {
+  margin-bottom: 1.5rem;
+}
+
+#section3 {
+  margin-top: 6rem;
+}
+#section3 .fases {
+  display: flex;
+  padding: 1rem 1rem 1rem 1rem;
+  justify-content: space-around;
+  text-align: center;
+  color: rgb(28, 21, 21);
+}
+#section3 .fases .fase {
+  border: solid black;
+  border-radius: 1rem;
+  margin: 1rem;
+  padding: 2rem 1rem 2rem 1rem;
+  font-size: 1.5rem;
+  background-color: rgba(128, 128, 128, 0.357);
+}
+#section3 .fases .fase p {
+  padding: 1.5rem;
+}
+#section3 .fases .fase h4 {
+  padding: 1.5rem;
+  font-size: 2rem;
+}
+#section3 .fases .fase i {
+  font-size: 4rem;
+  padding: 1rem;
+}
+#section3 .boton {
+  text-align: center;
+  padding: 2rem;
+}
+
+#section4 {
+  margin-top: 6rem;
+}
+#section4 .equipos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 1rem;
+}
+#section4 .equipos .equipo {
+  margin: 1rem;
+  border: solid black;
+  border-radius: 2rem;
+  width: 20rem;
+  height: 100%;
+}
+#section4 .equipos .equipo img {
+  max-width: 100%;
+  border-radius: 1.8rem;
+  object-fit: cover;
+  width: 22rem;
+  height: 25rem;
+}
+#section4 .equipos .equipo .equipo__contenido {
+  padding: 1rem;
+}
+#section4 .equipos .equipo .equipo__contenido p {
+  padding: 0.5rem 0.5rem 0.5rem 0;
+}
+#section4 .equipos .equipo .equipo__contenido .iconosRedes2 {
+  font-size: 1.7rem;
+  text-align: center;
+}
+#section4 .equipos .equipo .equipo__contenido .iconosRedes2 i {
+  padding: 0.5rem;
+}
+#section4 .equipos .equipo .equipo__contenido .iconosRedes2 .iconosRedes2 a {
+  color: black;
+}
+
+#section5 {
+  margin-top: 6rem;
+}
+#section5 .articulos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#section5 .articulos .articulo {
+  border: solid rgba(0, 0, 0, 0.61);
+  border-radius: 2rem;
+  margin: 1rem;
+}
+#section5 .articulos .articulo img {
+  max-width: 100%;
+  border-radius: 1.8rem;
+  object-fit: cover;
+  width: 22rem;
+  height: 12rem;
+}
+#section5 .articulos .articulo .articulo__contenido {
+  padding: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  background-color: rgb(255, 255, 255);
+  border-radius: 1.8rem;
+}
+#section5 .articulos .articulo .articulo__contenido a {
+  text-decoration: none;
+  color: white;
+  align-self: flex-end;
+  margin: 0 1rem 0.5rem 0;
+  background-color: rgb(40, 146, 146);
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+#section5 .articulos .articulo .articulo__contenido a:hover {
+  transition: 0.3s;
+  background-color: rgb(24, 55, 55);
+}
+
+#body__contacto {
+  background-image: radial-gradient(#d7d2cc, #304352);
+}
+#body__contacto #section6 {
+  margin-top: 7rem;
+}
+#body__contacto #section6 .textoAyuda {
+  text-align: center;
+  color: white;
+  gap: 0.8rem;
+  font-size: 1.5rem;
+}
+#body__contacto #section6 .textoAyuda h3 {
+  font-size: 2rem;
+}
+#body__contacto #section6 .textoAyuda i {
+  font-size: 2.5rem;
+}
+#body__contacto #section6 form {
+  padding: 2rem;
+}
+
+footer a,
+footer i {
+  text-decoration: none;
+  color: white;
+}
+
+@media screen and (max-width: 1024px) {
+  #section3 .fases {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 796px) {
+  .pilares {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  .pilares .pilar__uno,
+.pilares .pilar__dos,
+.pilares .pilar__tres {
+    border-bottom: solid rgba(0, 0, 0, 0.622);
+  }
+  #section3 .fases {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

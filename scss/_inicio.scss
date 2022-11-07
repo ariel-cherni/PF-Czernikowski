@@ -1,0 +1,77 @@
+.bienvenidos {
+  position: relative;
+  height: 85vh;
+  @extend %flex-column-center;
+
+  .bienvenidos__text {
+    @extend %flex-column-center;
+    opacity: 1;
+    gap: 1rem;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 4.5rem;
+    font-size: 1.5rem;
+    position: absolute;
+    color: black;
+
+    .divider {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      white-space: nowrap;
+      &:after,
+      &:before {
+        content: "";
+        background-color: black;
+        height: 3px;
+        width: 30vw;
+        margin: 10px;
+      }
+    }
+  }
+}
+
+.bienvenidos::before {
+  content: "";
+  background-image: url(../images/paisaje.jpg);
+  background-size: cover;
+  background-position: center center;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.7;
+}
+
+#section2 {
+  .textoPagina {
+    @extend %texto-pagina;
+  }
+
+  .pilares {
+    display: flex;
+    padding: 2rem;
+
+    .pilar__uno,
+    .pilar__dos,
+    .pilar__tres {
+      @extend %flex-column-center;
+
+      p {
+        text-align: center;
+        padding: 0.5rem;
+      }
+
+      i {
+        font-size: 4rem;
+        padding: 1rem;
+      }
+
+      a {
+        margin-bottom: 1.5rem;
+      }
+    }
+  }
+}

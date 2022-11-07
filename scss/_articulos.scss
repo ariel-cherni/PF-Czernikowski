@@ -1,0 +1,50 @@
+#section5 {
+  margin-top: 6rem;
+
+  .textoPagina {
+    @extend %texto-pagina;
+  }
+
+  .articulos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .articulo {
+      border: solid rgba(0, 0, 0, 0.61);
+      border-radius: 2rem;
+      margin: 1rem;
+
+      img {
+        max-width: 100%;
+        border-radius: 1.8rem;
+        object-fit: cover;
+        width: 22rem;
+        height: 12rem;
+      }
+      .articulo__contenido {
+        padding: 0.8rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        background-color: rgb(255, 255, 255);
+        border-radius: 1.8rem;
+
+        a {
+          text-decoration: none;
+          color: white;
+          align-self: flex-end;
+          margin: 0 1rem 0.5rem 0;
+          background-color: rgb(40, 146, 146);
+          border-radius: 0.5rem;
+          padding: 1rem;
+
+          &:hover {
+            transition: 0.3s;
+            background-color: rgb(24, 55, 55);
+          }
+        }
+      }
+    }
+  }
+}

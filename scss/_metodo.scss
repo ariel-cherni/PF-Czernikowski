@@ -1,0 +1,43 @@
+#section3 {
+  margin-top: 6rem;
+
+  .textoPagina {
+    @extend %texto-pagina;
+  }
+
+  .fases {
+    display: flex;
+    padding: 1rem 1rem 1rem 1rem;
+    justify-content: space-around;
+    text-align: center;
+    color: rgb(28, 21, 21);
+
+    .fase {
+      border: solid black;
+      border-radius: 1rem;
+      margin: 1rem;
+      padding: 2rem 1rem 2rem 1rem;
+      font-size: 1.5rem;
+      background-color: rgba(128, 128, 128, 0.357);
+
+      p {
+        padding: 1.5rem;
+      }
+
+      h4 {
+        padding: 1.5rem;
+        font-size: 2rem;
+      }
+
+      i {
+        font-size: 4rem;
+        padding: 1rem;
+      }
+    }
+  }
+
+  .boton {
+    text-align: center;
+    padding: 2rem;
+  }
+}

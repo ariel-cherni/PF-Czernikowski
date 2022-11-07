@@ -1,0 +1,15 @@
+%flex-column-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+%texto-pagina {
+  margin: 1rem 0rem 1rem 0rem;
+  padding: 2rem;
+  text-align: center;
+  font-size: 2rem;
+  background-color: #343a40ec;
+  color: white;
+}

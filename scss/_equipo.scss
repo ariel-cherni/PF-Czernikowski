@@ -1,0 +1,52 @@
+#section4 {
+  margin-top: 6rem;
+
+  .textoPagina {
+    @extend %texto-pagina;
+  }
+
+  .equipos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 1rem;
+
+    .equipo {
+      @extend %flex-column-center;
+      margin: 1rem;
+      border: solid black;
+      border-radius: 2rem;
+      width: 20rem;
+      height: 100%;
+
+      img {
+        max-width: 100%;
+        border-radius: 1.8rem;
+        object-fit: cover;
+        width: 22rem;
+        height: 25rem;
+      }
+
+      .equipo__contenido {
+        padding: 1rem;
+
+        p {
+          padding: 0.5rem 0.5rem 0.5rem 0;
+        }
+
+        .iconosRedes2 {
+          font-size: 1.7rem;
+          text-align: center;
+
+          i {
+            padding: 0.5rem;
+          }
+
+          .iconosRedes2 a {
+            color: black;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+#body__contacto {
+  background-image: radial-gradient(#d7d2cc, #304352);
+
+  #section6 {
+    margin-top: 7rem;
+
+    .textoAyuda {
+      @extend %flex-column-center;
+      text-align: center;
+      color: white;
+      gap: 0.8rem;
+      font-size: 1.5rem;
+
+      & h3 {
+        font-size: 2rem;
+      }
+
+      & i {
+        font-size: 2.5rem;
+      }
+    }
+
+    form {
+      padding: 2rem;
+    }
+  }
+}

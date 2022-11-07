@@ -1,0 +1,29 @@
+@media screen and (max-width: 1024px) {
+  #section3 .fases {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 796px) {
+  .pilares {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+    .pilar__uno,
+    .pilar__dos,
+    .pilar__tres {
+      border-bottom: solid rgba(0, 0, 0, 0.622);
+    }
+  }
+
+  #section3 .fases {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+}
