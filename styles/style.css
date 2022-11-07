@@ -92,6 +92,10 @@
   margin-bottom: 1.5rem;
 }
 
+#body__metodo {
+  background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
+}
+
 #section3 {
   margin-top: 6rem;
 }
@@ -126,6 +130,10 @@
   padding: 2rem;
 }
 
+#body__equipo {
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+
 #section4 {
   margin-top: 6rem;
 }
@@ -141,6 +149,7 @@
   border-radius: 2rem;
   width: 20rem;
   height: 100%;
+  background-color: rgb(255, 255, 255);
 }
 #section4 .equipos .equipo img {
   max-width: 100%;
@@ -156,14 +165,24 @@
   padding: 0.5rem 0.5rem 0.5rem 0;
 }
 #section4 .equipos .equipo .equipo__contenido .iconosRedes2 {
-  font-size: 1.7rem;
+  font-size: 2.2rem;
   text-align: center;
 }
 #section4 .equipos .equipo .equipo__contenido .iconosRedes2 i {
   padding: 0.5rem;
 }
-#section4 .equipos .equipo .equipo__contenido .iconosRedes2 .iconosRedes2 a {
+#section4 .equipos .equipo .equipo__contenido .iconosRedes2 .fa-instagram {
+  color: rgb(190, 47, 156);
+}
+#section4 .equipos .equipo .equipo__contenido .iconosRedes2 .fa-twitter {
+  color: rgb(46, 131, 235);
+}
+#section4 .equipos .equipo .equipo__contenido .iconosRedes2 .fa-linkedin {
   color: black;
+}
+
+#body__articulos {
+  background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
 }
 
 #section5 {
@@ -178,6 +197,7 @@
   border: solid rgba(0, 0, 0, 0.61);
   border-radius: 2rem;
   margin: 1rem;
+  background-color: rgb(255, 255, 255);
 }
 #section5 .articulos .articulo img {
   max-width: 100%;
