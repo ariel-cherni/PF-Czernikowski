@@ -116,9 +116,12 @@
 #section3 .fases .fase p {
   padding: 1.5rem;
 }
-#section3 .fases .fase h4 {
+#section3 .fases .fase h2 {
   padding: 1.5rem;
   font-size: 2rem;
+}
+#section3 .fases .fase h3 {
+  font-size: 1.4rem;
 }
 #section3 .fases .fase i {
   font-size: 4rem;
@@ -159,6 +162,9 @@
 }
 #section4 .equipos .equipo .equipo__contenido {
   padding: 1rem;
+}
+#section4 .equipos .equipo .equipo__contenido h2 {
+  font-size: 1.5rem;
 }
 #section4 .equipos .equipo .equipo__contenido p {
   padding: 0.5rem 0.5rem 0.5rem 0;
@@ -212,6 +218,9 @@
   gap: 0.5rem;
   background-color: rgb(255, 255, 255);
   border-radius: 1.8rem;
+}
+#section5 .articulos .articulo .articulo__contenido h2 {
+  font-size: 1.5rem;
 }
 #section5 .articulos .articulo .articulo__contenido a {
   text-decoration: none;
