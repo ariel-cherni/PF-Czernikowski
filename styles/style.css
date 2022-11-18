@@ -92,7 +92,7 @@
 }
 
 #body__metodo {
-  background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
 }
 
 #section3 {
@@ -106,12 +106,12 @@
   color: rgb(28, 21, 21);
 }
 #section3 .fases .fase {
-  border: solid black;
+  border: groove black;
   border-radius: 1rem;
   margin: 1rem;
   padding: 2rem 1rem 2rem 1rem;
   font-size: 1.5rem;
-  background-color: rgba(128, 128, 128, 0.357);
+  background-color: rgba(255, 255, 255, 0.723);
 }
 #section3 .fases .fase p {
   padding: 1.5rem;
@@ -119,6 +119,7 @@
 #section3 .fases .fase h2 {
   padding: 1.5rem;
   font-size: 2rem;
+  text-decoration: underline;
 }
 #section3 .fases .fase h3 {
   font-size: 1.4rem;
@@ -187,7 +188,7 @@
 }
 
 #body__articulos {
-  background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
 }
 
 #section5 {
@@ -237,14 +238,13 @@
 }
 
 #body__contacto {
-  background-image: radial-gradient(#d7d2cc, #304352);
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
 }
 #body__contacto #section6 {
   margin-top: 7rem;
 }
 #body__contacto #section6 .textoAyuda {
   text-align: center;
-  color: white;
   gap: 0.8rem;
   font-size: 1.5rem;
 }

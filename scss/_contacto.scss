@@ -1,5 +1,5 @@
 #body__contacto {
-  background-image: radial-gradient(#d7d2cc, #304352);
+  background-image: $gradient-fondo;
 
   #section6 {
     margin-top: 7rem;
@@ -7,7 +7,7 @@
     .textoAyuda {
       @extend %flex-column-center;
       text-align: center;
-      color: white;
+
       gap: 0.8rem;
       font-size: 1.5rem;
 
